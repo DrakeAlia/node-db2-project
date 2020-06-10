@@ -1,4 +1,4 @@
-const server = require('./server.js')
+const server = require('./api/server.js')
 
 const PORT = 8888;
 server.listen(PORT, () => {
